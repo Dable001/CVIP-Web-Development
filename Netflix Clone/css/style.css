@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color:rgb(89, 91, 92)
+}
+.flex{
+    display: flex;
+}
+.TopContainer{ /* This is the stating of the top container */
+    flex-direction:column;
+    position: relative;
+    height:95vh;
+    width: 100vw;
+    background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url("/image/Netflix\ background\ image.jpg");
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;   
+}
+.header{ 
+    height:13vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.Navbox{
+    height:100%;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbox>img{
+    height:10.5rem;
+}
+.childNavbox{
+    height:100%;
+    width:30%; 
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+.language{
+    height:2.5rem;
+    width:9rem;
+    padding-left:1rem;
+    border-radius: 5px;
+    border: solid 1px white;
+    background-color:black;
+    font-size:1rem;
+    color:white;
+    cursor: pointer;
+}
+.signOut{
+    height:2.5rem;
+    width:8rem;
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight:bold;
+    cursor: pointer;
+}
+.signin{
+    height:90% ;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
+    color: white;
+}
+.signin>h3{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.signin>h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.finish{
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    height: 8%;
+    width: 15%;
+    margin-top: 35px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.secondcontainer{ /* This is the stating of the second container */
+     flex-wrap: wrap;
+    margin-top:7px;
+    height:60vh;
+    width:100vw;
+    background-color:#000;
+}
+.scleft{
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    color:white;
+}
+.scleft>h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.scleft>p{
+    margin-left:30px;
+    font-size:25px;
+}
+.scright{
+    height: 100%;
+    width:50%;
+    align-items: center;
+}
+.tvimage{ /* Tv IMAGE'S STYLING */
+    height:25.5rem;
+}
+.thirdContainer{ /* This is the stating of the third container */
+    flex-wrap: wrap;
+    margin-top:7px;
+    height: 70vh;
+    width: 100vw;
+    background-color: #000;
+}
+.tcleft{
+    height: 100%;
+    width:50%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.phoneimage{
+    height:25.5rem;
+}
+.tcright{
+    height:100%;
+    width:50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    color: white;
+}
+.tcright>h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.tcright>p{
+    margin-right:22px;
+    font-size:25px;
+}
+.forthContainer{ /* This is teh stating of the forth container */
+    flex-wrap: wrap;
+    margin-top:7px;
+    height:60vh;
+    width:100vw;
+    background-color:#000;
+}
+.fcleft{
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    color:white;
+}
+.fcleft>h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.fcleft>p{
+    font-size: 25px;
+    margin-left: 19%;
+}
+.fcright{
+    height: 100%;
+    width:50%;
+    align-items: center;
+}
+.kidContainer{ /* This is the stating of kid container */
+    flex-wrap: wrap;
+    margin-top:7px;
+    height: 60vh;
+    width: 100vw;
+    background-color: #000;
+}
+.kcleft{
+    height:100%;
+    width:50%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.kcright{
+    height: 100%;
+    width:50%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    color:white;
+}
+.kcright>h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.kcright>p{
+    font-size: 25px;
+
+}
+.faq{/* This is the stating of the faq container */
+    height:100vh;
+    width: 100vw;
+    background-color:#000;
+    margin-top:7px;
+    padding:20px;
+    color:white;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.faq>h2{
+    color:white;
+    font-size: 2.5rem; 
+}
+.accordion{
+    margin: 60px auto;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding:5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    font-size:18px;
+    font-weight:500;
+    background:#303030;
+    margin-bottom:2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 50px;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding:0 20px ;
+    max-height:0;
+    overflow: hidden;
+    transition:0.5s;
+}
+.accordion input[type="radio"]:checked+label+.content{
+    max-height: 600px;
+    padding:30 20;
+}
+.footer{ /* This is teh footersection statng */
+    background-color:#000;
+    margin-top:7px;
+    height:50vh;
+    width:100vw;
+    padding:15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.footer>h6{
+    margin-top: 105px;
+    font-size: 12px;
+    font-weight:0;
+}
+.footer>h6>span{
+    text-decoration: underline;
+}
+.bottomfooter{
+    height:80%;
+    width:100%;
+}
+.fbox{
+    height:100%;
+    width:25%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+.flist{
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    gap:20px;
+}
+.flist>li{
+    list-style: none;
+}
+.flist>li>a{
+    color:white;
+    font-size: small;
+    font-weight: 0;
+}
+
+
+
